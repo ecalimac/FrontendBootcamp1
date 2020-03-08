@@ -4,16 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PizzaMaker</title>
-    <link
+    <!-- Too much italianno -->
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Italianno&display=swap"
       rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
     />
     <link rel="stylesheet" href="./app.css" />
   </head>
   <body>
     <main class="container">
       <header>
-        <div class="logo">Pizza Maker</div>
+        <div class="logo">
+          <i class="fas fa-pizza-slice"></i>
+          Pizza Maker
+        </div>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
         <div class="menu">Home / Our Story / Sign In</div>
       </header>
       <article class="heading">
@@ -44,7 +59,16 @@
           olive oil lotion)
         </div>
       </div>
-      <footer><div>Made with love... and mozzarella</div></footer>
+      <!-- Used just for a CSS trick - 1:1 design :-) -->
+      <div class="just-grey-space"></div>
+      <!-- End of the trick -- and the magic happens -->
+      <footer>
+        <div>Made with love... and mozzarella</div>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
